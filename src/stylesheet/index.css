@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
+@import url(./variables.css);
+html{
+    font-family: 'Inter', sans-serif;
+}
+
+table,
+td,
+th {
+    border: 1px solid;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* ///select */
+.select{
+    border: 1px solid black;
+    padding: 0.4rem 0.3rem;
+    font-size: var(--text-m);
+    cursor: pointer;
+}
+
+.select:active, .select:focus{
+    border: 1px solid black;
+    outline: none;
+}
+
+.select__option{
+}
+
+/* ///input */
+.input{
+    border: 1px solid black;
+    padding: 0.4rem 0.3rem;
+    font-size: var(--text-m);
+}
+
+.input:active, .input:focus{
+    border: 1px solid black;
+    outline: none;
+}
+
+/* ////////////////////////////////////////specific blocks and elements */
+/* ///input-roll */
+.input-roll{
+    display: flex;
+}
+
+.input-roll__input, .input-roll__select{
+    margin-left: 1rem;
+}
+
+.input-roll__input:first-child{
+    margin-left: 0;
+}
+
+/* ///main-table */
+.main-table{
+    margin-top: 4rem;
+}
